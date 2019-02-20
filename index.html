@@ -7,23 +7,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-    crossorigin="anonymous">
-
-  <title>Hello, world!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/css/stylesheet.css">
+  <link rel="stylesheet" href="/css/menubar.css">
+  <title>Kezdőoldal!</title>
 </head>
 
 <body>
   <section class="container">
-    <section class="col-12">Logó és cím</section>
-    <section class="col-12">Kép</section>
     <section class="col-12">
-      Menü
-      <section class="row">
-        <section class="col-4">Múlt</section>
-        <section class="col-4">Jelen</section>
-        <section class="col-4">Jövő</section>
-        <section class="col-12">
+      <img src="/images/logo.jpg" alt="logo" style="width:100px;">
+    </section>
+    <section class="col-12">
+      <img src="/images/header.JPG" alt="header" class="img-fluid header-image">
+    </section>
+    <section class="col-12">
+      <section class="menu">
+        <section class="book past" data-target="past">
+          <p class="title">
+            Múlt
+          </p>
+        </section>
+        <section class="book present" data-target="present">
+          <p class="title">Jelen</p>
+        </section>
+        <section class="book future" data-target="future">
+          <p class="title">Jövő</p>
+        </section>
+      </section>
+      <section class="row menubars">
+        <section class="col-12 past" style="display:none">
           <ul>
             <li>Korábbi cikkek</li>
             <li>Fotók</li>
@@ -34,7 +50,7 @@
             <li>Korábbi klubok</li>
           </ul>
         </section>
-        <section class="col-12">
+        <section class="col-12 present" style="display:none">
           <ul>
             <li>Magunkról</li>
             <li>Dokumentumok</li>
@@ -43,7 +59,7 @@
             <li>Elérhetőségek</li>
           </ul>
         </section>
-        <section class="col-12">
+        <section class="col-12 future" style="display:none">
           <ul>
             <li>stratégia</li>
             <li>beadott pályázatok</li>
@@ -52,53 +68,25 @@
       </section>
     </section>
     <section class="content">
-      ALMAFA
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum venenatis quam vitae arcu porttitor, quis
-        tempor eros accumsan. Phasellus in erat a mi pretium pharetra. Aliquam erat volutpat. Praesent ut tincidunt
-        libero. Nullam sed enim non ipsum aliquet rhoncus dapibus iaculis leo. Fusce pharetra diam interdum, molestie
-        lacus et, porttitor nunc. Aliquam id lobortis leo. In hac habitasse platea dictumst.</p>
-      <p>
-        Cras ac enim sit amet neque tempus semper ac ut nisi. Integer condimentum faucibus mollis. Integer volutpat
-        dignissim magna et tristique. Nunc euismod, felis mattis venenatis ultricies, massa est accumsan est, id
-        suscipit sem eros eu lacus. Nam et mi eget ante convallis ultricies. Integer quam nisl, rutrum sed molestie a,
-        placerat quis lorem. Pellentesque purus dui, pretium eu sodales vitae, ullamcorper non arcu. Duis sed orci
-        risus. Aenean ut mauris iaculis mauris luctus molestie commodo ut nisi. Nullam mattis fermentum sem, at
-        imperdiet turpis porttitor in.
-      </p>
-      <p>
-        Maecenas fringilla neque consectetur ex lobortis ultricies. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Duis mollis semper elit, at dignissim nisi. Sed commodo odio est, in
-        maximus tortor mattis mattis. Aliquam molestie, sem vel dictum fermentum, odio urna maximus ligula, sit amet
-        finibus urna erat in orci. Etiam porta enim a metus laoreet eleifend. Donec non enim risus. Pellentesque vel
-        volutpat orci. Maecenas suscipit, nibh nec fermentum fermentum, dolor mi volutpat diam, in aliquam felis purus
-        id orci. Nunc id quam felis. Vivamus quis laoreet dui.
-      </p>
-      <p>
-        Nam et tempus libero, eget hendrerit arcu. Nam rhoncus sem vel arcu finibus luctus. Nullam mattis vestibulum
-        mauris, ac venenatis mauris consectetur sit amet. Etiam vitae commodo urna. Nunc tortor tellus, malesuada quis
-        tristique in, laoreet ac nisi. Mauris eu dolor sed quam lobortis pretium sed nec ligula. Donec eu dolor enim.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse
-        platea dictumst. Mauris id vehicula nisl. Nam consectetur mi sapien, eget consequat orci venenatis nec.
-      </p>
-      <p>
-        Vestibulum molestie posuere metus, id posuere eros venenatis non. Aliquam ornare nisl nulla, eu sodales lacus
-        maximus et. Proin dapibus nisl eget ipsum molestie vestibulum. Vestibulum porttitor molestie mauris, vitae
-        condimentum nisi volutpat sit amet. Pellentesque tristique magna vel enim ornare maximus. Duis volutpat, ipsum
-        a auctor ullamcorper, sem ex vulputate dui, eget egestas velit massa quis sapien. Morbi a suscipit sem, nec
-        interdum tortor. Aenean sollicitudin quam in dolor sagittis blandit. In condimentum turpis eget libero euismod
-        placerat.
-      </p>
+      <h3>„A Magyarországi Éjféli Sportbajnokság Egyesület hátrányos helyzetű fiatalok szabadidős tevékenységét
+        szervezi, éjszakai sportklubokat működtet azzal a céllal, hogy hétvégén éjjel ne az utcán csellengjenek a 12-25
+        év közötti fiatalok.
+        Jellege: párkereső, családpótló, szórakoztató, életmódformáló szociális sport- és játékklub A kábítószerrel és
+        az alkohollal való ismerkedés lehetőséget nyújtunk arra, hogy a sportban mérjék össze erejüket a kamaszok.”</h3>
     </section>
   </section>
- <!-- itt vagyok -->
-  <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
     crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-    crossorigin="anonymous"></script>
+
+  <!-- Optional JavaScript -->
+  <script src="/js/script.js"></script>
+  <script src="/js/menu.js"></script>
 </body>
 
 </html>
