@@ -10,7 +10,7 @@
     width: 30%;
     cursor: pointer;
 }
-.menubars{
+.menubars, .menubars a{
     color:white;
 }
 .book.past, .menubars .past{
