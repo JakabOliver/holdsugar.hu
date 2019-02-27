@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^mult/(.*)/$ index.php?time=mult&sub=$1 [L]
+RewriteRule ^jelen/(.*)/$ index.php?time=jelen&sub=$1 [L]
+RewriteRule ^jovo/(.*)/$ index.php?time=jovo&sub=$1 [L]
