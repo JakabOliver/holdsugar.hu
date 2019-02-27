@@ -1,7 +1,1 @@
-body{
-    background-color: lightblue;
-}
-
-.header-image{
-    max-height: 200px;
-}
+body{background-color:#69b3cc}.header-image{max-height:200px}.menu{height:120px;width:100%}.book{display:inline-block;height:100px;min-width:100px;width:30%;cursor:pointer}.book .title{background-color:#fff;margin:1rem .5rem 0;text-transform:uppercase;text-align:center}.book.past,.book .menubars .past{background-color:#39b54a}.book.present,.book .menubars .present{background-color:#fdc000}.book.future,.book .menubars .future{background-color:#f15b24}.menubars,.menubars a{color:#fff}@media only screen and (min-width: 576px){.menubars li{display:inline-block}}/*# sourceMappingURL=stylesheet.css.map */

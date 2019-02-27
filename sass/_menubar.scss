@@ -1,0 +1,39 @@
+.menu {
+    height: 120px;
+    width: 100%;
+}
+
+.book {
+    display: inline-block;
+    height: 100px;
+    min-width: 100px;
+    width: 30%;
+    cursor: pointer;
+    .title {
+        background-color: white;
+        margin: 1rem 0.5rem 0;
+        text-transform: uppercase;
+        text-align:center;
+    }
+&.past, .menubars .past{
+    background-color: $lightgreen;
+}
+&.present, .menubars .present{
+    background-color: $lightyellow;
+}
+&.future, .menubars .future{
+    background-color: $lightred;
+}
+}
+.menubars, .menubars a{
+    color:$white;
+}
+
+
+
+
+@media only screen and (min-width: 576px) {
+    .menubars li{
+        display: inline-block;
+    }
+}

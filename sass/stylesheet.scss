@@ -1,0 +1,11 @@
+@import 'variables';
+
+body{
+    background-color: $backgroundblue;
+}
+
+.header-image{
+    max-height: 200px;
+}
+
+@import 'menubar';
