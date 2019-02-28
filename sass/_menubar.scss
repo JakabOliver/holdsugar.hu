@@ -15,20 +15,47 @@
         text-transform: uppercase;
         text-align:center;
     }
-&.past, .menubars .past{
-    background-color: $lightgreen;
+    &.past{
+        background-color: $lightgreen;
+    }
+    &.present{
+        background-color: $lightyellow;
+    }
+    &.future{
+        background-color: $lightred;
+    }
 }
-&.present, .menubars .present{
-    background-color: $lightyellow;
+.menubars{
+ 
+    ul{
+        margin:0;
+        padding:0.5rem;
+        text-align: center;
+    }
+    a{
+        color:$white;
+        padding:0.5rem;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    .past{
+        background-color: $lightgreen;
+        a:hover{
+            background-color: $darkgreen;
+        }
+    }.present{
+        background-color: $lightyellow;
+        a:hover{
+            background-color: $darkyellow;
+        }
+    }.future{
+        background-color: $lightred;
+        a:hover{
+            background-color: $darkred;
+        }
+    }
 }
-&.future, .menubars .future{
-    background-color: $lightred;
-}
-}
-.menubars, .menubars a{
-    color:$white;
-}
-
 
 
 

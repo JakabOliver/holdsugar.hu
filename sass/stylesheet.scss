@@ -2,10 +2,14 @@
 
 body{
     background-color: $backgroundblue;
+    font-family: Myriad Pro;
 }
-
+.header{
+    color:$brand;
+}
 .header-image{
-    max-height: 200px;
+    max-width: 100%;
+    max-height: 500px;
 }
 
 @import 'menubar';
