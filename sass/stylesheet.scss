@@ -5,7 +5,17 @@ body{
     font-family: Myriad Pro;
 }
 .header{
-    color:$brand;
+    a{
+        text-decoration: none;
+        color: $brand;
+    }
+    span{
+        vertical-align: bottom;
+        font-size: 1.75rem;
+    }
+    img{
+        width: 100px;
+    }
 }
 .header-image{
     max-width: 100%;
@@ -13,3 +23,4 @@ body{
 }
 
 @import 'menubar';
+@import 'footer';

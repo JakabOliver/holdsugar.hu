@@ -16,56 +16,64 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
   <link rel="stylesheet" href="/css/stylesheet.css">
   <title>Holdsugár!</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136433708-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136433708-1');
+</script>
+
 </head>
 
 <body>
   <section class="container">
     <section class="col-12 d-inline header">
       <a href="/">
-        <img src="/images/logo.svg" alt="logo" style="width:100px;height:100px">
-        <span>Magyarországi Éjféli Sportbajnokságok Egyesülete</p>
+        <img src="/images/logo.png" alt="logo">
+        <span>Magyarországi Éjféli Sportbajnokságok Egyesülete</span>
       </a>
     </section>
     <section class="col-12">
-      <img src="/images/header.JPG" alt="header" class="img-fluid header-image">
+      <img src="https://via.placeholder.com/1400x600" alt="header" class="img-fluid header-image">
     </section>
     <section class="col-12">
-      <section class="menu">
-        <section class="book past" data-target="past">
-          <p class="title">
-            Múlt
-          </p>
-        </section>
-        <section class="book present" data-target="present">
-          <p class="title">Jelen</p>
-        </section>
-        <section class="book future" data-target="future">
-          <p class="title">Jövő</p>
-        </section>
-      </section>
-      <section class="row menubars">
-        <section class="col-12 past" style="display:none">
-          <ul>
-            <li><a href="/mult/cikkek">Korábbi cikkek</a></li>
-            <li><a href="/mult/fotok">Fotók</a></li>
-            <li> <a href="/mult/hirpong">Hírpong</a></li>
-            <li> <a href="/mult/konferenciak">Konferencia</a></li>
-            <li>Korábbi klubok</li>
-            <li> <a href="/mult/kutatasok">Kutatások rólunk</a></li>
-            <li> <a href="/mult/film/">Film</a></li>
-          </ul>
-        </section>
-        <section class="col-12 present" style="display:none">
-          <ul>
-            <li><a href="/jelen/magunkrol/">Magunkról</a> </li>
-          </ul>
-        </section>
-        <section class="col-12 future" style="display:none">
-          <ul>
-            <li>stratégia</li>
-            <li>beadott pályázatok</li>
-          </ul>
-        </section>
+      <section class="row books">
+          <section class="col-4">
+            <img src="/images/fuzetek/zold_nyitott.svg" alt="" class="book past closed" data-target="past">
+          </section>
+          <section class="col-4">
+            <img src="/images/fuzetek/sarga_zart.svg" alt="" class="book present closed" data-target="present">
+          </section>
+          <section class="col-4">
+            <img src="/images/fuzetek/piros_zart.svg" alt="" class="book future closed" data-target="future">
+          </section>
+            <section class="col-12 menubar past " style="display:none">
+              <ul>
+                <li><a href="/mult/cikkek">Korábbi cikkek</a></li>
+                <li><a href="/mult/fotok">Fotók</a></li>
+                <li> <a href="/mult/hirpong">Hírpong</a></li>
+                <li> <a href="/mult/konferenciak">Konferencia</a></li>
+                <li>Korábbi klubok</li>
+                <li> <a href="/mult/kutatasok">Kutatások rólunk</a></li>
+                <li> <a href="/mult/film/">Film</a></li>
+              </ul>
+            </section>
+            <section class="col-12 menubar present" style="display:none">
+              <ul>
+                <li><a href="/jelen/magunkrol/">Magunkról</a> </li>
+              </ul>
+            </section>
+            <section class="col-12 menubar future" style="display:none">
+              <ul>
+                <li>stratégia</li>
+                <li>beadott pályázatok</li>
+              </ul>
+            </section>
+     
       </section>
     </section>
     <section class="content">

@@ -11,7 +11,7 @@ if(!empty($_GET['sub']))
     $path.=$_GET['sub'].'/';
 
 
-$site=file_get_contents($path.'index.html');
+$site=file_get_contents($path.'index.part.html');
 
 
 echo $head.$site.$foot;
