@@ -79,4 +79,28 @@
     .menubar li{
         display: inline-block;
     }
+    .sponsors{
+        img{
+            height: 100px;;
+        }
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .header{
+        img{
+            width:50px;
+        }
+    }
+    .books{
+        margin-top:-50px;
+    }
+    .sponsors{
+        img{
+            max-width: 100%;
+            height: 100px;
+            display: block;
+            margin: auto;
+        }
+    }
 }
