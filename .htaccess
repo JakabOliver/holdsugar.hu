@@ -1,5 +1,8 @@
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://www.holdsugar.hu/$1 [R,L]
+
 Options +FollowSymLinks
-RewriteEngine On
 
 RewriteRule ^kepek/$ index.php?kepek [L]
 RewriteRule ^mult/(.*)/$ index.php?time=mult&sub=$1 [L]
