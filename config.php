@@ -1,7 +1,7 @@
 <?php 
 
 if($_SERVER['SERVER_NAME']=='localhost'){
-    define('ENV', 'local')
+    define('ENV', 'local');
 }else{
-    define('ENV', 'live')
+    define('ENV', 'live');
 }
