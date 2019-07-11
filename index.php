@@ -1,4 +1,5 @@
 <?php 
+include 'config.php';
 
 $head=file_get_contents('head.part.html');
 $foot=file_get_contents('foot.part.html');
